@@ -7,6 +7,11 @@
 
 
 /* Header section. */
+header nav ul {
+    width: 100%;
+    background-color: rgb(8, 32, 138);
+}
+
 ul {
     display: flex;
     float: right;
@@ -17,4 +22,22 @@ ul {
 li {
     margin: 1rem;
 }
-    
+
+.navOptions a{
+    color: white;
+    text-decoration: none;
+}
+
+#bio {
+    border: 1px solid burlywood;
+    padding: 1rem;
+    box-shadow:0.2rem 0.4rem 0.5rem rgb(236, 211, 211); 
+    margin-right: 12rem;
+    color: white;
+}
+
+#profilePicture {
+    display: inline-flex;
+    height: auto;
+    width: 6rem;
+}
