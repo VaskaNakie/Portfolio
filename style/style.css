@@ -1,43 +1,135 @@
-* {
+body  {
     margin: 0;
     padding: 0;
     font-size: 16px;
+}
+* {
+    /* border: 0.5px solid red */
 }
 
 
 
 /* Header section. */
-header nav ul {
-    width: 100%;
-    background-color: rgb(8, 32, 138);
+header {
+    display: flex;
+    background-color: rgb(55, 77, 146);
+    height: 3.5rem;
+    justify-content: flex-end;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: white;
+    margin: 1rem;
+    
 }
 
 ul {
+    margin-right: 5rem;
+}
+
+#name {
+    margin-right: 15rem;
+}
+
+
+
+
+/* Main section */
+
+#greeting {
+    text-align: center;
+    height: 10rem;
+    width: 100%;
+}
+
+h1 {
     display: flex;
-    float: right;
-    margin: 0.5rem;
-    list-style-type: none;
-}
-
-li {
-    margin: 1rem;
-}
-
-.navOptions a{
-    color: white;
-    text-decoration: none;
-}
-
-#bio {
-    border: 1px solid burlywood;
-    padding: 1rem;
-    box-shadow:0.2rem 0.4rem 0.5rem rgb(236, 211, 211); 
-    margin-right: 12rem;
-    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 #profilePicture {
     display: inline-flex;
     height: auto;
+    width: 8rem;
+    margin-left:2rem;
+    
+}
+
+/* Skill icons */
+.skillPicture {
+    height: 2rem;
+    width:auto;
+}
+
+#coderPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+#coder {
+    margin: 4rem;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.centerCoder {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.project {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.project p {
+    height: 6rem;
     width: 6rem;
+}
+
+.javascript {
+    fill: yellow;
+}
+
+
+
+
+#skillsContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 1rem;
+    
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
 }
