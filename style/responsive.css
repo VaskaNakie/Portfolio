@@ -1,0 +1,310 @@
+@media screen and (max-width: 1480px) {
+    .project {
+        margin:2.2rem;
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1310px) {
+    .project {
+        margin:2.2rem;
+        width: 250px;
+    }
+
+    #profilePicture {
+        width:17rem;
+    }
+
+    #coder h2 {
+        font-size: 3rem;
+    }
+
+    #coder h3 {
+        font-size: 2.3rem;
+        
+    }
+
+    #aboutColor {
+        font-size: 1.7rem;
+    }
+
+    .about h3 {
+        font-weight: 300;
+        line-height: 2.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-bottom: 4rem;
+    }
+
+    header ul li a {
+        margin: 2.5rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+
+    header {
+        height: 5rem;
+        justify-content: center;
+    }
+
+} 
+
+
+@media screen and (max-width: 1200px) {
+    .project {
+        margin:1.3rem;
+    }
+
+    header ul li a {
+        margin: 2rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    #projectsText {
+        font-size: 1.7rem;
+    }
+
+    #skillsContainerText {
+        font-size: 1.7rem;
+    }
+
+    #above-form {
+        font-size: 1.7rem;
+    }
+
+    #skillsContainer {
+        padding: 7rem;
+    }
+
+    #profilePicture {
+        width:15rem;
+    }
+
+    #coder h2 {
+        font-size: 2.7rem;
+    }
+
+    #coder h3 {
+        font-size: 2rem;
+        
+    }
+
+    #form-size {
+        width: 600px;
+    }
+}
+
+
+@media screen and (max-width: 1089px) {
+    #contact {
+        font-size: 1.1rem;
+    }
+
+    header ul li a {
+        margin: 1.5rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    .project {
+        margin:0.6rem;
+        width: 350px;
+    }
+
+    #github {
+        font-size: 1.3rem;
+    }
+
+    header {
+        height: 4rem;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 979px) {
+    header ul li a {
+        margin: 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .project {
+        margin:0.1rem;
+        width: 350px;
+    }
+
+    #github {
+        font-size: 1.3rem;
+    }
+
+    #form-size {
+        width: 500px;
+    }
+
+    #new-window {
+        min-height: 1rem;
+    }
+
+    #new-window-github {
+        min-height: 1.2rem;
+    }
+
+    header {
+        height: 4rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    header ul li a {
+        margin: 0.3rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    #form-size {
+        width: 450px;
+    }
+
+    #projectsText {
+        font-size: 1.5rem;
+    }
+
+    #skillsContainerText {
+        font-size: 1.5rem;
+    }
+
+    #above-form {
+        font-size: 1.5rem;
+    }
+
+    #skillsContainer {
+        padding: 3rem;
+    }
+
+    #profilePicture {
+        width:12rem;
+    }
+
+    #coder h2 {
+        font-size: 2.4rem;
+    }
+
+    #coder h3 {
+        font-size: 1.7rem;
+        
+    }
+
+    #aboutColor {
+        font-size: 1.5rem;
+    }
+
+    .about h3 {
+        font-weight: 300;
+        line-height: 2.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #contact {
+        font-size:0.9rem;
+    }
+
+    header {
+        height: 3.7rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    header ul li a {
+        margin:0.2rem;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    #projectsText {
+        font-size: 1.2rem;
+    }
+
+    #skillsContainerText {
+        font-size: 1.2rem;
+    }
+
+    #above-form {
+        font-size: 1.2rem;
+    }
+
+    #skillsContainer {
+        padding: 3rem;
+    }
+
+    #profilePicture {
+        width:10rem;
+    }
+
+    #coder h2 {
+        font-size: 2.2rem;
+    }
+
+    #coder h3 {
+        font-size: 1.5rem;
+        
+    }
+
+    #aboutColor {
+        font-size: 1.3rem;
+    }
+
+    .about h3 {
+        font-weight: 300;
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    #contact {
+        font-size:0.9rem;
+    }
+
+
+    .project {
+        width:400px;
+    }
+
+    #form-size {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 789px) {
+    header ul li a {
+        margin:0.2rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+
+    header {
+        height: 3.5rem;
+        justify-content: center;
+    }
+
+    #name {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    #name {
+        margin-right: 0.5rem;
+    }
+
+    header ul li a {
+        margin:0.2rem;
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+}
