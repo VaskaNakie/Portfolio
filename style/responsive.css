@@ -285,6 +285,13 @@
     #name {
         margin-right: 3rem;
     }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -302,6 +309,13 @@
     #name {
         margin-right: 1.5rem;
     }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
+    }
 }
 
 @media screen and (max-width: 534px) {
@@ -313,6 +327,13 @@
         margin:0.3rem;
         text-decoration: none;
         font-size: 0.9rem;
+    }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
     }
 }
 
@@ -336,6 +357,13 @@
         width:8rem;
         box-shadow: 1.5px 1px rgb(255 116 2 / 83%);
     }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
+    }
 }
 
 @media screen and (max-width: 465px) {
@@ -355,7 +383,16 @@
         min-width: 0.7rem;
         min-height: 0.7rem;
     }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
+    }
 }
+
+
 @media screen and (max-width: 414px) {
     #name {
         margin-right: 0rem;
@@ -372,6 +409,13 @@
         max-height: 0.7rem;
         min-width: 0.7rem;
         min-height: 0.7rem;
+    }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
     }
 }
 @media screen and (max-width: 390px) {
@@ -390,5 +434,12 @@
         max-height: 0.7rem;
         min-width: 0.7rem;
         min-height: 0.7rem;
+    }
+    #coderPhoto {
+        margin-top: 0rem;
+        margin-bottom:0rem;
+    }
+    .project {
+        padding:0rem;
     }
 }
