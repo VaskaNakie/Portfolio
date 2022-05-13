@@ -93,7 +93,7 @@ ul {
     max-width: 27rem;
     width:23rem;
     border-radius: 12%;
-    box-shadow: 6px 5.5px rgba(255, 116, 2, 0.829);
+    box-shadow: 3px 2.5px rgba(255, 116, 2, 0.829);
 }
 
 /* Skill icons */
@@ -257,8 +257,8 @@ svg {
 #new-window {
     max-width: 1rem;
     max-height: 1rem;
-    min-width: 1.5rem;
-    min-height: 1.5rem;
+    min-width: 1rem;
+    min-height: 1rem;
     fill:white;
 }
 #new-window-github {

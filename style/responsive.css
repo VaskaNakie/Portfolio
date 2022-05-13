@@ -217,11 +217,15 @@
         height: 3.7rem;
         justify-content: center;
     }
+
+    #name {
+        margin-right: 8rem;
+    }
 }
 
 @media screen and (max-width: 789px) {
     header ul li a {
-        margin:0.2rem;
+        margin:0.8rem;
         text-decoration: none;
         font-size: 1rem;
     }
@@ -278,13 +282,16 @@
     #form-size {
         width: 350px;
     }
+    #name {
+        margin-right: 3rem;
+    }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 640px) {
     header ul li a {
-        margin:0.2rem;
+        margin:0.3rem;
         text-decoration: none;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     header {
@@ -293,18 +300,95 @@
     }
 
     #name {
-        margin-right: 2rem;
+        margin-right: 1.5rem;
     }
 }
 
-@media screen and (max-width: 473px) {
+@media screen and (max-width: 534px) {
     #name {
         margin-right: 0.5rem;
     }
 
     header ul li a {
+        margin:0.3rem;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #name {
+        margin-right: 0.1rem;
+    }
+
+    header ul li a {
         margin:0.2rem;
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    #skillsContainer {
+        padding: 7rem;
+    }
+
+    #profilePicture {
+        min-width: 7rem;
+        width:8rem;
+        box-shadow: 1.5px 1px rgb(255 116 2 / 83%);
+    }
+}
+
+@media screen and (max-width: 465px) {
+    #name {
+        margin-right: 0rem;
+    }
+
+    header ul li a {
+        margin:0.2rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+
+    #new-window {
+        max-width: 0.7rem;
+        max-height: 0.7rem;
+        min-width: 0.7rem;
+        min-height: 0.7rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    #name {
+        margin-right: 0rem;
+    }
+
+    header ul li a {
+        margin:0.2rem;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+
+    #new-window {
+        max-width: 0.7rem;
+        max-height: 0.7rem;
+        min-width: 0.7rem;
+        min-height: 0.7rem;
+    }
+}
+@media screen and (max-width: 390px) {
+    #name {
+        margin-right: 0rem;
+    }
+
+    header ul li a {
+        margin:0.1rem;
+        text-decoration: none;
+        font-size: 0.72rem;
+    }
+
+    #new-window {
+        max-width: 0.7rem;
+        max-height: 0.7rem;
+        min-width: 0.7rem;
+        min-height: 0.7rem;
     }
 }

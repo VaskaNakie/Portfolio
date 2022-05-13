@@ -309,7 +309,7 @@ function Vector(x, y, z) {
   document.rotationForce = 0;
   document.Friction = 0.90;
   // Size the text
-  document.sizeRatio = window.innerWidth / 3500;
+  document.sizeRatio = window.innerWidth / 2700;
   // Global mouse-to-point interaction threshold (px)
   document.mouseResponseThreshold = 50;
   
